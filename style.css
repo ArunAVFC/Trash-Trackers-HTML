@@ -1,0 +1,250 @@
+/*<link rel="stylesheet" href="style.css">*/
+.banner
+{
+background-color:#FFFFF0;
+color:#132a13;
+font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:57px;
+}
+.title
+{
+
+color:#132a13;
+font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:50px;
+text-align: center;
+padding: 15px 0;
+
+}
+body
+{
+    background-color:#d8f3dc;
+}
+img {
+  width: 100px;
+  height: 55px;
+  object-fit: cover;
+}
+.img1
+{
+    width: 1600px;
+    height: 600px;
+    object-fit: cover;
+}
+.navbar
+{
+color:#FFFFF0;
+background-color:#132a13;
+font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:30px;
+text-align: right;
+padding: 15px 0;
+}
+a:active
+{
+    color:chartreuse;
+}
+a:visited
+{
+    color:#d5bdaf;
+}
+a:hover
+{
+    color:chartreuse;
+}
+a:link
+{
+    color:cyan;
+}
+
+.hero
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:55px;
+}
+.heros
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    position: relative;
+    text-align: center;
+    color: black;
+    font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:35px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.heroimage
+  {
+    height:400px;
+    width:750px;
+    display:grid;
+    float:left;
+}
+.heroimage2
+  {
+    height:400px;
+    width:750px;
+    display:grid;
+    float:right;
+}
+.moto
+{
+color:#132a13;
+font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:120px;
+float:left;
+}
+.motoabout
+{
+    color:#132a13;
+    font-size:25px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    text-align:end;
+
+}
+.moto2
+{
+color:#132a13;
+font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:120px;
+float:right;
+}
+.motoabout2
+{
+    color:#132a13;
+    font-size:25px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    text-align:justify;
+
+}
+.titlepage
+{
+    background-color:#FFFFF0 ;
+}
+.working
+  {
+    height:400px;
+    width:750px;
+    display:grid;
+    float:right;
+}
+.how
+{
+color:#FFFFF0;
+background-color:#132a13;
+font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:120px;
+float:left;
+}
+.howwork
+{
+    color:#FFFFF0;
+    font-size:35px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    text-align:end;
+
+}
+.imp
+{
+    background-color:black;
+    color:#FFFFF0;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    float:left;
+    font-size: 25px;
+}
+.left
+{
+    color:#FFFFF0;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    float:left;
+    font-size: 25px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size:40px;
+
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  body
+  {
+    color:#FFFFF0;
+font-family: 'Bree Serif', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-size:30px;
+  }

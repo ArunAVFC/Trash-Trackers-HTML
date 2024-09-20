@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kanit&family=Outfit:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<style>
+    body
+    {
+        background-image: url('https://img.freepik.com/free-photo/two-monastera-leaves-black-background_23-2147835077.jpg?size=626&ext=jpg&ga=GA1.2.1908226533.1652804114&semt=ais');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+</style>
+<div class="banner">
+    <img src="logo.svg">Trash Trackers
+
+</div>
+<div class="navbar">
+    <a href="frontpage.html">Menu</a>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+    <a href="complaint.html">Complaint</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+    <a href="about.html">About</a>
+
+     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</div>
+<body>
+    <form action="submit-form.php" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="address-line1">Address Line 1:</label>
+        <input type="text" id="address-line1" name="address-line1" required>
+        
+        <label for="address-line2">Address Line 2:</label>
+        <input type="text" id="address-line2" name="address-line2">
+        
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+        
+        <label for="zipcode">Zipcode:</label>
+        <input type="text" id="zipcode" name="zipcode" required>
+        
+      
+        
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        
+        <label for="problems">Problems related to improper waste disposal in your locality:</label>
+        <textarea id="problems" name="problems" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+      
+      
+</body>
